@@ -1,0 +1,22 @@
+ChromaDAM is ready on this computer.
+
+1. Double-click start.cmd in this folder.
+2. Keep its terminal window open.
+3. Open http://127.0.0.1:8000 in a browser.
+4. Upload a photo, or open one of the six sample illustrations.
+
+MobileSAM and CLIP model files have already been downloaded on this computer.
+To stop the app, press Ctrl+C in the terminal.
+
+If using a fresh copy from the source ZIP on a different machine:
+- Install Python 3.10-3.12 and Git.
+- Run install-ai.cmd once to install AI dependencies and download weights.
+- Run start.cmd, then open the address above.
+- Optional: run .venv\Scripts\python.exe scripts/make_samples.py
+  and .venv\Scripts\python.exe scripts/seed_demo.py for demo images.
+
+README.md has detailed setup information.
+docs/PROJECT.md explains the architecture, algorithms, and evaluation plan.
+docs/VERIFICATION.md records what was tested.
+
+This is a local single-user project. It has not been published online.
